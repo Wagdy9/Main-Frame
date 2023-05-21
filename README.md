@@ -3,7 +3,7 @@
 
 
 
-## CSS syntax :
+##CSS syntax :
 
 
 
