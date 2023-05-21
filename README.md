@@ -1,2 +1,10 @@
 # W
-#project notes : 
+#Project notes : 
+
+
+
+## CSS syntax :
+
+
+
+##Javascript syntax :
