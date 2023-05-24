@@ -1,0 +1,18 @@
+[credential "helperselector"]
+	selected = manager
+[user]
+	email = wagdy311092@gmail.com
+	name = 'Wagdy
+
+[alias]
+	st = status
+	br = branch
+	cm = commit -m
+	st = stash
+[core]
+	editor = /usr/bin/vim
+	editor = 'code
+	editor = 'code
+	editor = 'code
+	editor = 'code
+	editor = 'code
