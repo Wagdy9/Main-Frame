@@ -1,10 +1,10 @@
 # The main framre
-# Project notes : changes made must be outlined for other colleagues to discuss
+# Project notes
 
 
 
 
-##CSS syntax :
+##CSS syntax :  : changes made must be outlined for other colleagues to discuss
 
 
 
