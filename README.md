@@ -4,7 +4,7 @@
 
 
 
-##CSS syntax :  : changes made must be outlined for other colleagues to discuss
+##CSS syntax : changes made must be outlined for other colleagues to discuss
 
 
 
