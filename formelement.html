@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>The Form Element</title>
 </head>
+
 <body>
     <h2>1st form</h2>
     <form>
@@ -18,11 +20,11 @@
         </div>
         <br>
         <div>
-            <input type="submit"value="save">
+            <input type="submit" value="save">
         </div>
     </form>
     <hr>
-    
+
     <h2>2nd Form</h2>
     <form>
         <div>
@@ -44,7 +46,7 @@
     <form>
         <div>
             <label>Username</label>
-            <input type="text" required>
+            <input type=" text" required>
         </div>
         <br>
         <div>
@@ -61,7 +63,7 @@
             <input type="submit" value="save">
         </div>
         <hr>
-        
+
         <h2>4th Form 'placeholder'</h2>
         <form>
             <div>
@@ -89,7 +91,7 @@
             </div>
         </form>
         <hr>
-<h2>5th Form "action attribute to save data collected from the form'</h2>
+        <h2>5th Form "action attribute to save data collected from the form'</h2>
         <form action="C:\Users\Alienware\Downloads\HTML_projects\wagdy.txt">
             <div>
                 <label>Username</label>
@@ -112,233 +114,235 @@
             </div>
             <br>
             <div>
+                <input type=" submit" value="save">
+            </div>
+            <br>
+        </form>
+        <br>
+
+        <h2>6th Form 'number ,color, hidden and range attributes'</h2>
+        <form>
+            <div>
+                <label>number</label>
+                <input type="number" required range min="10" max="100" step="10">
+            </div>
+            <br>
+            <div>
+                <label>color</label>
+                <input type="color" required>
+            </div>
+            <div>
+                <input
+                    type="hidden"><!-- to hide data that will be sent away with the form but the user shouldn't see them like other meta data-->
+            </div>
+            <br>
+            <div>
+                <label>range</label>
+                <input type="range" required range min="100" max="500" step="50">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="save">
+            </div>
+        </form>
+        <br>
+
+        <h2>7th Form 'readonly, disabled, minlength, maxlength, autofocus and reset'</h2>
+        <form>
+            <div>
+                <label>Username</label>
+                <input type="text" required value="Wagdy" name="n" readonly>
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" required placeholder="Your Email" name="email" value="rony_201066@yahoo.com"
+                    disabled>
+            </div>
+            <br>
+            <div>
+                <label>Passwordl</label>
+                <input type="password" required placeholder="Your Password" name="password" minlength="8"
+                    maxlength="20">
+            </div>
+            <br>
+            <div>
+                <label>subject</label>
+                <input type="text" required name="subject" autofocus>
+            </div>
+            <br>
+            <div>
                 <input type="submit" value="save">
             </div>
             <br>
-        </form>
-        <br>
-        
-         <h2>6th Form 'number ,color, hidden and range attributes'</h2>
-        <form>
-        <div>
-         <label>number</label>
-         <input type="number" required range min="10" max="100" step="10">
-         </div>
-         <br>
-         <div>
-          <label>color</label>
-          <input type="color" required>
-        </div>
-        <div>
-        <input type="hidden"><!-- to hide data that will be sent away with the form but the user shouldn't see them like other meta data-->
-        </div>
-        <br>
-        <div>
-        <label>range</label>
-        <input type="range" required range min="100" max="500" step="50">
-        </div>
-        <br>
-        <div>
-        <input type="submit" value="save">
-        </div>
-        </form>
-        <br>
-        
-        <h2>7th Form 'readonly, disabled, minlength, maxlength, autofocus and reset'</h2>
-       <form>
-        <div>
-        <label>Username</label>
-        <input type="text" required value="Wagdy" name="n" readonly>
-        </div> 
-        <br>
-        <div>
-        <label>Email</label>
-        <input type="email" required placeholder="Your Email" name="email"
-            value="rony_201066@yahoo.com" disabled>
-        </div>
-        <br>
-        <div>
-        <label>Passwordl</label>
-        <input type="password" required placeholder="Your Password" name="password" minlength="8" maxlength="20">
-        </div>
-        <br>
-        <div>
-        <label>subject</label>
-        <input type="text" required name="subject" autofocus>
-        </div>
-        <br>
-        <div>
-        <input type="submit" value="save">
-        </div>
-        <br>
-        </div>
-        <br>
-        <div>
-        <input type="reset" value="reset">
-        </div>
-        <hr>
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="reset">
+            </div>
+            <hr>
 
-        <h2>8th Form' radio and checkbox attributs'</h2>
-    <form>
-        <div>
-         <input id="win" type="radio" name="os" value="win" checked>
-         <label for="win"> Windows </label>
-        </div>
-        
-        <div>
-            <input id="lin" type="radio" name="os" value="lin">
-         <label for="lin">Linux</label>
-        </ div>
-        
-        <div>
-         <input id="mac" type="radio" name="os" value="mac">
-         <label for="mac">Mac</label>
-        </div>
-       </form>  
-       <br>
-       
-     <form>
-       <div>
-            <input id="c" type="checkbox" name="lang" value="c" checked>
-            <label for="c">C</label>
-        </div>
-        <div>
-            <input id="html5" type="checkbox" name="lang" value="html5">
-            <label for="html5">HTML5</label>
-        </div>
-        <div>
-            <input id="css" type="checkbox" name="lang" value="css">
-            <label for="css">CSS</label>
-        </div>
-       </form>
-       <hr>
-       
-    <h2>9th Form 'Select and Textarea attributes'</h2>
-    <form>
-        <label for="lang">Choose language:</label>
-        <select name="l" id="lang" multiple>
-            <optgroup label="low level">
-               <option value="1" selected>lang 1</option>
-               <option value="2">lang 2</option>
-               <option value="3">lang 3</option>
-            </optgroup>
+            <h2>8th Form' radio and checkbox attributs'</h2>
+            <form>
+                <div>
+                    <input id="win" type="radio" name="os" value="win" checked>
+                    <label for="win"> Windows </label>
+                </div>
 
-            <optgroup label="high level">
-               <option value="4">lang 4</option>
-               <option value="5">lang 5</option>
-               <option value="6">lang 6</option>
-            </optgroup>
-         </select>
-         <hr>
-         
-         <textarea name="subject"cols= 44 rows= 20 placeholder=" Put Your Message Here" >
-</textarea>
-         <hr>
-         
-         <form>
-          <label for="lang">choose language:</label>
-            <select name="l" id="la" multiple>
-                <optgroup label="main">
-                    <option value="1" selected>C</option>
-                    <option value="2">CSS</option>
-                    <option value="3">JS</option>
-                </optgroup>
-                <optgroup label="other">
-                    <option value="4">HTML</option>
-                    <option value="5">C++</option>
-                    <option value="6">Pyhton</option>
-                 </optgroup>
-             </select>
+                    <div>
+                        <input id="lin" type="radio" name="os" value="lin">
+                        <label for="lin">Linux</label>
+                    </ div>
+
+                    <div>
+                        <input id="mac" type="radio" name="os" value="mac">
+                        <label for="mac">Mac</label>
+                    </div>
+            </form>
+            <br>
+
+            <form>
+                <div>
+                    <input id="c" type="checkbox" name="lang" value="c" checked>
+                    <label for="c">C</label>
+                </div>
+                <div>
+                    <input id="html5" type="checkbox" name="lang" value="html5">
+                    <label for="html5">HTML5</label>
+                </div>
+                <div>
+                    <input id="css" type="checkbox" name="lang" value="css">
+                    <label for="css">CSS</label>
+                </div>
             </form>
             <hr>
 
-        <form>
-            <label for="subject">choose subject:</label>
-            <select name="subject" id="sub" multiple>
-                <optgroup label="primary">
-                    <option value="sub1">anatomy</option>
-                    <option value="sub2" selected>physiology</option>
-                    <option value="sub3">parasitology</option>
-                </optgroup>
-                <optgroup label="other">
-                    <option value="sub4">medicinal</option>
-                    <option value="sub5">microbiology</option>
-                    <option value="sub6">biochemistry</option>
-                </optgroup>
-            </select>
-            <br>
-            <input type="submit" value="Go">
-        </form>
-        <hr>
-        
-        <h2>10th Form 'date, month, time, file, url attributes and search'</h2>
-        <form>
-            <label>file</label>
-            <input type="file">
-        <br>
-        <hr>
-        
-        <div>
-            <label>url</label>
-            <input type="url" placeholder="Put Your Url">
-        </div>
-        <br>
-        
-        <div>
-            <label>time</label>
-            <input type="time">
-        </div>
-        
-        <br>
-        <div>
-            <label>month</label>
-            <input type="month">
-        </div>
-        
-        <br>
-        <div>
-            <label>date</label>
-            <input type="date">
-        </div>
-        <br>
-        
-        <div>
-            <label>search</label>
-            <input type="search">
-        </div>
-        <br>
-        <div>
-            <input type="submit"value="Go">
-        </form>
-        <hr>
-        
-        <h2>11th Form 'novalidate, target and datalist'</h2>
-        <form action="" method="get" hidden novalidate target="_blank">
-            <div>
-                <input type="text" value="Wagdy">
-            </div>
-        </form>
-        <hr>
-        
-        <form>
-            
-            <div>
-                <input list="l"
-                name="lang">
-                
-                <datalist id="l">
-                   <option value="C">
-                   <option value="C#">
-                   <option value="C++">
-                   <option value="JS">
-                   <option value="CSS">
-                   <option value="HTML5">
-                </datalist>
-            
-            </div>
-        
-        </form>
+            <h2>9th Form 'Select and Textarea attributes'</h2>
+            <form>
+                <label for="lang">Choose language:</label>
+                <select name="l" id="lang" multiple>
+                    <optgroup label="low level">
+                        <option value="1" selected>lang 1</option>
+                        <option value="2">lang 2</option>
+                        <option value="3">lang 3</option>
+                    </optgroup>
 
-    
+                    <optgroup label="high level">
+                        <option value="4">lang 4</option>
+                        <option value="5">lang 5</option>
+                        <option value="6">lang 6</option>
+                    </optgroup>
+                </select>
+                <hr>
+
+                <textarea name="subject" cols=44 rows=20 placeholder=" Put Your Message Here">
+</textarea>
+                <hr>
+
+                <form>
+                    <label for="lang">choose language:</label>
+                    <select name="l" id="la" multiple>
+                        <optgroup label="main">
+                            <option value="1" selected>C</option>
+                            <option value="2">CSS</option>
+                            <option value="3">JS</option>
+                        </optgroup>
+                        <optgroup label="other">
+                            <option value="4">HTML</option>
+                            <option value="5">C++</option>
+                            <option value="6">Pyhton</option>
+                        </optgroup>
+                    </select>
+                </form>
+                <hr>
+
+                <form>
+                    <label for="subject">choose subject:</label>
+                    <select name="subject" id="sub" multiple>
+                        <optgroup label="primary">
+                            <option value="sub1">anatomy</option>
+                            <option value="sub2" selected>physiology</option>
+                            <option value="sub3">parasitology</option>
+                        </optgroup>
+                        <optgroup label="other">
+                            <option value="sub4">medicinal</option>
+                            <option value="sub5">microbiology</option>
+                            <option value="sub6">biochemistry</option>
+                        </optgroup>
+                    </select>
+                    <br>
+                    <input type="submit" value="Go">
+                </form>
+                <hr>
+
+                <h2>10th Form 'date, month, time, file, url attributes and search'</h2>
+                <form>
+                    <label>file</label>
+                    <input type="file">
+                    <br>
+                    <hr>
+
+                    <div>
+                        <label>url</label>
+                        <input type="url" placeholder="Put Your Url">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label>time</label>
+                        <input type="time">
+                    </div>
+
+                    <br>
+                    <div>
+                        <label>month</label>
+                        <input type="month">
+                    </div>
+
+                    <br>
+                    <div>
+                        <label>date</label>
+                        <input type="date">
+                    </div>
+                    <br>
+
+                    <div>
+                        <label>search</label>
+                        <input type="search">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Go">
+                </form>
+                <hr>
+
+                <h2>11th Form 'novalidate, target and datalist'</h2>
+                <form action="" method="get" hidden novalidate target="_blank">
+                    <div>
+                        <input type="text" value="Wagdy">
+                    </div>
+                </form>
+                <hr>
+
+                <form>
+
+                    <div>
+                        <input list="l" name="lang">
+
+                        <datalist id="l">
+                            <option value="C">
+                            <option value="C#">
+                            <option value="C++">
+                            <option value="JS">
+                            <option value="CSS">
+                            <option value="HTML5">
+                        </datalist>
+
+                    </div>
+
+                </form>
+
+
 </body>
+
 </html>
