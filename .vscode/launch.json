@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open doctype.html",
-            "file": "c:\\Users\\Alienware\\Downloads\\My-Github\\W\\doctype.html"
+            "name": "Open lessons.html",
+            "file": "c:\\Users\\Alienware\\Downloads\\My-Github\\W\\lessons.html"
         }
     ]
 }
