@@ -1,0 +1,19 @@
+div{
+    border: 2px solid olive;
+    padding: 20px;
+    text-align: center;
+    white-space: normal;
+}
+p{
+    border: 5px dotted;
+    border-color: inherit;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.ser{
+    font-family: 'Cairo', sans-serif;
+}
+.noser{
+    font-family: 'Kablammo', cursive;
+}
