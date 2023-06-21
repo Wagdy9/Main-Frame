@@ -1,16 +1,18 @@
-body{
-   min-width: 5000px;
-   min-height: 5000px;
- 
+body {
+    min-width: 5000px;
+    min-height: 5000px;
+
 }
-.one{
+
+.one {
     position: relative;
     bottom: 10;
     left: 0;
     background-color: red;
     width: fit-content;
 }
-.two{
+
+.two {
     position: sticky;
     top: 0;
     right: 0;
@@ -18,14 +20,16 @@ body{
     max-width: 100px;
     text-align: center;
 }
-.three{
-     background-color: greenyellow;
-     width: fit-content;
-     position: static;
- }
- .four{
-     background-color: rosybrown;
-     width: fit-content;
-     position: fixed;
-     
- }
+
+.three {
+    background-color: greenyellow;
+    width: fit-content;
+    position: static;
+}
+
+.four {
+    background-color: rosybrown;
+    width: fit-content;
+    position: fixed;
+
+}
